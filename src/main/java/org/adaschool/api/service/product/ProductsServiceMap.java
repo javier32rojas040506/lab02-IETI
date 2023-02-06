@@ -1,6 +1,7 @@
 package org.adaschool.api.service.product;
 
 import org.adaschool.api.repository.product.Product;
+import org.adaschool.api.repository.product.ProductDto;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,7 +30,7 @@ public class ProductsServiceMap implements ProductsService {
     }
 
     @Override
-    public Product update(Product product, String productId) {
+    public Product update(ProductDto product, String productId) {
         return null;
     }
 }

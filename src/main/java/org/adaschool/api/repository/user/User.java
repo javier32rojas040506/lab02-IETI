@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class User {
 
-    private final String id;
+    private String id;
     private final Date createdAt;
     private String name;
     private String lastName;
@@ -38,6 +38,10 @@ public class User {
 
     public String getName() {
         return name;
+    }
+
+    public void setId(String id){
+        this.id = id;
     }
 
     public void setName(String name) {
