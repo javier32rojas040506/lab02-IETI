@@ -11,3 +11,18 @@ accedemos al endpoint de la documentacion de swagger en:
 ``http://localhost:8080/swagger-ui/index.html``
 
 ![](.README_images/079bb28b.png)
+
+## Testing in postman
+#### Create
+![](.README_images/0bcf7258.png)
+
+#### Read
+![](.README_images/540695c1.png)
+![](.README_images/710d6177.png)
+
+#### Update
+![](.README_images/9348cb38.png)
+
+#### Delete
+![](.README_images/ab83d2d4.png)
+![](.README_images/f9818beb.png)
